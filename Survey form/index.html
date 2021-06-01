@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Survey Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/Styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header text-center">
+    <div><h1 class="title">A Survey Form</h1></div>
+    <p class="subtitle">Thank you for taking the time to help us improce the platform</p>
+  </div>
+  <div class="main row">
+    <form class="form col-sm-12 mx-auto">
+    <lable for="name" class="item">Name</lable><br>
+      <input type="text" name="name" class="textbox" placeholder="Enter your name"><br>
+    <lable for="email" class="item">Email</lable><br>
+      <input type="email" name="email" class="textbox" placeholder="Enter your email"><br>
+    <lable for="age" class="item">Age (optional)</lable><br>
+      <input type="text" name="age" class="textbox" placeholder="Age"><br>
+    <lable for="role" class="item">Which option best describes your current role?</lable><br>
+    <select class="textbox" name="role">
+      <option disabled selected value>Select a role</option>
+      <option value="student">Student</option>
+      <option value="fulltime job">Fulltime job</option>
+      <option value="fulltime learner">Fulltime learner</option>
+      <option value="other">Other</option>
+    </select><br>
+    <label for="recommend" class="item" name="recommend">Would you recommend our platform to a friend?</label><br>
+    <input type="radio" class="radio" name="recommend" value="Definitely" checked>Definitely <br>
+    <input type="radio" class="radio" name="recommend" value="Maybe">Maybe <br>
+    <input type="radio" class="radio" name="recommend" value="Not sure">Not sure <br>
+    <lable for="feature" class="item">What is your favorite feature of our platform?</lable><br>
+    <select class="textbox" class="item" name="feature">
+      <option disabled selected value>Select an option</option>
+      <option value="Challenges">Challenges</option>
+      <option value="Projects">Projects</option>
+      <option value="Community">Community</option>
+      <option value="other">Other</option>
+    </select><br>
+    <label for="improvement" class="item" name="improvement">What would you like to see improved? <span>(check all that apply)</span></label><br>
+    <input type="checkbox" class="checkbox" name="Front-end Projects" value="Front-end Projects">Front-end Projects<br>
+    <input type="checkbox" class="checkbox" name="Back-end Projects" value="Back-end Projects">Back-end Projects<br>
+    <input type="checkbox" class="checkbox" name="Data Visualization" value="Data Visualization">Data Visualization<br>
+    <input type="checkbox" class="checkbox" name="Challenges" value="Challenges">Challenges<br>
+    <input type="checkbox" class="checkbox" name="Open source community" value="Open source community">Open source community<br>
+    <input type="checkbox" class="checkbox" name="Videos" value="Videos">Videos<br>
+    <input type="checkbox" class="checkbox" name="Wiki" value="Wiki">Wiki<br>
+    <label for="comment" class="item" name="comments">Any comments or suggestions?</label><br>
+    <textarea class="textarea" name="comment" placeholder="Enter your comment here.."></textarea><br>
+    <div class="d-grid col-12 mx-auto">
+      <button class="btn btn-success btn-lg" type="button" name="Submit">Submit</button>
+    </div>
+  </form>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
