@@ -49,10 +49,10 @@ h1{
 .content{
   justify-content: center;
   }
-  span {
+span {
     font-weight: bold;
   }
-  .content-list {
+.content-list {
     max-width: 600px;
     margin: 30px auto 50px auto;
     text-align: justify;
