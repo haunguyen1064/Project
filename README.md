@@ -2,7 +2,7 @@
  Side-project
 prepare for new jobs. <br>
 
-1. <a href="https://haunguyen1064.github.io/Projects/Game-Dice/index.html" target = "_blank" >Dice game </a>
+1. <a href="https://haunguyen1064.github.io/Projects/Game-Dice/index.html" target = "_blank" rel="noopener">Dice game </a>
 2. [Product landing page](https://haunguyen1064.github.io/Projects/Product%20landing%20page/)
 3. [Survey form](https://haunguyen1064.github.io/Projects/Survey%20form/)
 4. [A tribute page](https://haunguyen1064.github.io/Projects/Tribute%20page/)
