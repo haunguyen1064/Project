@@ -1,7 +1,7 @@
 # Project
  Side-project
-prepare for new jobs
-See active site as follow:
+prepare for new jobs. <br>
+
 1. [Dice game](https://haunguyen1064.github.io/Project/Game-Dice/index.html)
 2. [Product landing page](https://haunguyen1064.github.io/Project/Product%20landing%20page/)
 3. [Survey form](https://haunguyen1064.github.io/Project/Survey%20form/)
