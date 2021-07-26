@@ -1,6 +1,7 @@
 body{
   background-color: #e7e6e1;
   font-family: 'Roboto Slab', sans-serif;
+  padding: 20px
 }
 /*header*/
 
@@ -57,6 +58,7 @@ span {
     margin: 30px auto 50px auto;
     text-align: justify;
     padding-bottom: 10px;
+    padding-right: 2rem;
   }
 .content-items {
   margin-top: 20px;
